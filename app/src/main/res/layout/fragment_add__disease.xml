@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundfitapp"
+    tools:context=".Add_Disease" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/add_disease_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/rectangle2"
+            android:text="ADD DISEASE"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_disease_checkup" />
+
+        <EditText
+            android:id="@+id/add_disease_condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/rectangle13"
+            android:ems="10"
+            android:hint="Condition"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            android:textColorHint="@color/bottomNavigaitonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_disease_name" />
+
+        <EditText
+            android:id="@+id/add_disease_checkup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/rectangle13"
+            android:ems="10"
+            android:hint="Last Checkup"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            android:textColorHint="@color/bottomNavigaitonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_disease_condition" />
+
+        <EditText
+            android:id="@+id/add_disease_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rectangle13"
+            android:ems="10"
+            android:hint="Disease Name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            android:textColorHint="@color/bottomNavigaitonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/healthicon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

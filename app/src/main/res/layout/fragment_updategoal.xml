@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundfitapp"
+    tools:context=".UpdateGoal" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="275dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/rectangle13"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Current Date"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            android:textColorHint="@color/bottomNavigaitonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="275dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/rectangle13"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Current Weigth"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            android:textColorHint="@color/bottomNavigaitonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName8"
+            android:layout_width="275dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/rectangle13"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Taget Steps"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            android:textColorHint="@color/bottomNavigaitonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName9"
+            android:layout_width="275dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/rectangle13"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Target Heart Points"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            android:textColorHint="@color/bottomNavigaitonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="278dp"
+            android:layout_height="252dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/fitnessimage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="UPDATE YOUR GOAL"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="210dp"
+            android:layout_height="49dp"
+            android:background="@drawable/rectangle2"
+            android:text="UPDATE"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9"
+            app:layout_constraintVertical_bias="0.377" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

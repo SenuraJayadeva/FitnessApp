@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundfitapp"
+        tools:context=".SetGoal">
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backgroundfitapp">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="288dp"
+                android:layout_height="276dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/fitnessimage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="SET YOUR GOAL"
+                android:textAlignment="center"
+                android:textColor="@color/bottomNavigaitonColor"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.556"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/set_goal_current_date"
+                android:layout_width="305dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/rectangle13"
+                android:ems="10"
+                android:hint="Current Date"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/bottomNavigaitonColor"
+                android:textColorHint="@color/bottomNavigaitonColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+            <EditText
+                android:id="@+id/set_goal_weight"
+                android:layout_width="305dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/rectangle13"
+                android:ems="10"
+                android:hint="Current Weight"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/bottomNavigaitonColor"
+                android:textColorHint="@color/bottomNavigaitonColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/set_goal_current_date" />
+
+            <EditText
+                android:id="@+id/set_goal_target_steps"
+                android:layout_width="305dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/rectangle13"
+                android:ems="10"
+                android:hint="Target Steps"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/bottomNavigaitonColor"
+                android:textColorHint="@color/bottomNavigaitonColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/set_goal_weight" />
+
+            <EditText
+                android:id="@+id/set_goal_heart_points"
+                android:layout_width="305dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/rectangle13"
+                android:ems="10"
+                android:hint="Target Heart Points"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/bottomNavigaitonColor"
+                android:textColorHint="@color/bottomNavigaitonColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/set_goal_target_steps" />
+
+            <Button
+                android:id="@+id/set_goal_button"
+                android:layout_width="257dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/rectangle2"
+                android:text="SET"
+                android:textColor="@color/bottomNavigaitonColor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.467"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/set_goal_heart_points"
+                app:layout_constraintVertical_bias="0.428" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+</ScrollView>
+

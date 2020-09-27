@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundfitapp"
+    tools:context=".update_disease" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/healthicon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/update_disease_condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/rectangle13"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Condition"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/update_disease_name" />
+
+        <EditText
+            android:id="@+id/update_disease_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/rectangle13"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Disease Name"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+        <EditText
+            android:id="@+id/update_disease_lastcheckup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/rectangle13"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="CheckUp"
+            android:textAlignment="center"
+            android:textColor="@color/bottomNavigaitonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/update_disease_condition" />
+
+        <Button
+            android:id="@+id/update_disease_button"
+            android:layout_width="162dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/rectangle2"
+            android:text="Edit"
+            android:textColor="@color/bottomNavigaitonColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/update_disease_lastcheckup" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
