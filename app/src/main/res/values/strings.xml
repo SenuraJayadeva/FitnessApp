@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">FitApp</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    Senura-->
+    <string name="set_daily_goal_text">SET DAILY GOAL</string>
+    <string name="view_daily_goal_text">VIEW</string>
+    <string name="add_current_date_text">Current Date</string>
+    <string name="add_cuurent_weight_text">Current Weight</string>
+    <string name="add_target_steps_text">Target Steps</string>
+    <string name="add_target_heart_points_text">Target Heart Points</string>
+    <string name="add_set_goal_button">SET GOAL</string>
 </resources>
